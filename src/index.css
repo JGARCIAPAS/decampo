@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "sana-book-regular";
+  src: url("./assets/fonts/sanasans-book-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-regular";
+  src: url("./assets/fonts/sanasans-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-black-regular";
+  src: url("./assets/fonts/sanasans-black-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-black-italic";
+  src: url("./assets/fonts/sanasans-black-italic-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-black-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-bold-italic";
+  src: url("./assets/fonts/sanasans-bold-italic-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-bold-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-medium-italic";
+  src: url("./assets/fonts/sanasans-medium-italic-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/sanasans-medium-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sana-medium";
+  src: url("./assets/fonts/sanasans-medium-webfont.woff2") format("woff2"),
+    url("./assets/fonts/sanasans-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

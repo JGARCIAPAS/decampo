@@ -1,15 +1,17 @@
-import { useState } from 'react'
+/* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '/vite.svg' */
 //import './App.css'
-import Nav from './components/Nav/Nav'
+import Cookies from "./components/Cookies/Cookies";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <>
-      <Nav></Nav>
+      <Cookies />
+      <Nav />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
