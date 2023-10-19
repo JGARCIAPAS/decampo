@@ -7,6 +7,7 @@ export default {
         red: "#E0001A",
         dark_gray: "#7C808C",
         cookie_gray: "#333333",
+        footer_light_gray: "#DFE0E2",
       },
       fontFamily: {
         sanabook: ["sana-book-regular"],
