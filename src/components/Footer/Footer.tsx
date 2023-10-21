@@ -64,7 +64,23 @@ const Footer = () => {
               <h2 className="text-gray-500 font-sanamedium text-lg font-bold mb-1">
                 Medios de pago
               </h2>
-              <div className="block"></div>
+              <div className="block">
+                <img
+                  className="p-0.5 bg-gray-700 w-12 inline"
+                  alt="Puntos de batalla"
+                  src="./src/assets/img/icons/bp.png"
+                />
+                <img
+                  className="p-0.5 bg-gray-700 w-12 inline"
+                  alt="Puntos de liga"
+                  src="./src/assets/img/icons/lp.png"
+                />
+                <img
+                  className="p-0.5 bg-gray-700 w-12 inline"
+                  alt="Tarjeta de puntos de batalla Sinnoh"
+                  src="./src/assets/img/icons/bpcard.png"
+                />
+              </div>
             </div>
             <div>
               <h2 className="text-gray-500 font-sanamedium text-lg font-bold mb-1">
