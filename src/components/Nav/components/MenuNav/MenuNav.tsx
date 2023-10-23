@@ -1,36 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import ProductData from "../../../../ProductData.json";
 
 const MenuNav = () => {
+  const categories = Object.keys(ProductData);
+  console.log(ProductData);
   return (
     <div className="subnav bg-red">
       <div className="w-9/12 mx-auto grid grid-cols-9">
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          ingredientes
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          pokeballs
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          medicinas
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          vitaminas
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          objetos batalla
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          mt
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          objetos evolutivos
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          fundas
-        </div>
-        <div className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4">
-          otros
-        </div>
+        {categories.map((category) => (
+          <div
+            key={category}
+            className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4 transition-colors"
+          >
+            <Link to={category.replace(/\s/g, "_")}>{category}</Link>
+          </div>
+        ))}
       </div>
     </div>
   );

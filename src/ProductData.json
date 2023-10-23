@@ -1,0 +1,72 @@
+{
+  "ingredientes": {},
+  "pokeballs": {
+    "pokeball": {
+      "nombre": "pokéball",
+      "precio": "200",
+      "img": "pokeballs/pokeball.png"
+    },
+    "superball": {
+      "nombre": "superball",
+      "precio": "600",
+      "img": "pokeballs/superball.png"
+    },
+    "ultraball": {
+      "nombre": "ultraball",
+      "precio": "800",
+      "img": "pokeballs/ultraball.png"
+    },
+    "sanaball": {
+      "nombre": "sanaball",
+      "precio": "300",
+      "img": "pokeballs/sanaball.png"
+    },
+    "mallaball": {
+      "nombre": "mallaball",
+      "precio": "1000",
+      "img": "pokeballs/mallaball.png"
+    },
+    "acopioball": {
+      "nombre": "acopioball",
+      "precio": "1000",
+      "img": "pokeballs/acopioball.png"
+    },
+    "nidoball": {
+      "nombre": "nidoball",
+      "precio": "1000",
+      "img": "pokeballs/nidoball.png"
+    },
+    "lujoball": {
+      "nombre": "lujoball",
+      "precio": "3000",
+      "img": "pokeballs/lujoball.png"
+    },
+    "buceoball": {
+      "nombre": "buceoball",
+      "precio": "1000",
+      "img": "pokeballs/buceoball.png"
+    },
+    "ocasoball": {
+      "nombre": "ocasoball",
+      "precio": "1000",
+      "img": "pokeballs/ocasoball.png"
+    },
+    "velozball": {
+      "nombre": "velozball",
+      "precio": "1000",
+      "img": "pokeballs/velozball.png"
+    },
+    "turnoball": {
+      "nombre": "turnoball",
+      "precio": "1000",
+      "img": "pokeballs/turnoball.png"
+    }
+  },
+  "medicinas": {},
+  "vitaminas": {},
+  "objetos batalla": {},
+  "mt": {},
+  "objetos evolutivos": {},
+  "fundas": {},
+  "otros": {}
+}

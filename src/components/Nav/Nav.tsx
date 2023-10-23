@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ShopLocation from "./components/ShopLocation/ShopLocation";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 import MenuNav from "./components/MenuNav/MenuNav";
@@ -7,16 +8,18 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="main-nav flex flex-row gap-16 pt-5 pb-2 w-9/12 mx-auto basis-1/6 font-sanamedium">
-        <picture className="site-logo w-52">
-          <source
-            srcSet="./src/assets/img/logos/decampo_alt.svg"
-            media="(min-width: 600px)"
-          />
-          <img
-            className="site-logo w-52"
-            src="./src/assets/img/logos/decampo_alt.svg"
-          />
-        </picture>
+        <Link to="/">
+          <picture className="site-logo w-52">
+            <source
+              srcSet="./src/assets/img/logos/decampo_alt.svg"
+              media="(min-width: 600px)"
+            />
+            <img
+              className="site-logo w-52"
+              src="./src/assets/img/logos/decampo_alt.svg"
+            />
+          </picture>
+        </Link>
         <div className="header-content flex flex-row basis-5/6">
           <div className="site-search basis-3/4 mr-3 relative block">
             <span className="absolute top-3 left-0 flex items-center pl-2">
