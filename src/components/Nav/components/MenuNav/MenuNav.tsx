@@ -5,7 +5,6 @@ import ProductData from "../../../../ProductData.json";
 
 const MenuNav = () => {
   const categories = Object.keys(ProductData);
-  console.log(ProductData);
   return (
     <div className="subnav bg-red">
       <div className="w-9/12 mx-auto grid grid-cols-9">

@@ -1,11 +1,12 @@
 {
-  "ingredientes": {},
+  "ingredientes": {
+    "mayonesa": {
+      "nombre": "mayonesa",
+      "precio": "600",
+      "img": ".png"
+    }
+  },
   "pokeballs": {
-    "pokeball": {
-      "nombre": "pokéball",
-      "precio": "200",
-      "img": "pokeballs/pokeball.png"
-    },
     "superball": {
       "nombre": "superball",
       "precio": "600",
@@ -63,7 +64,48 @@
     }
   },
   "medicinas": {},
-  "vitaminas": {},
+  "vitaminas": {
+    "mas_ps": {
+      "nombre": "Más PS",
+      "precio": "10000",
+      "img": "masps.png"
+    },
+    "proteina": {
+      "nombre": "proteina",
+      "precio": "10000",
+      "img": "proteina.png"
+    },
+    "hierro": {
+      "nombre": "hierro",
+      "precio": "10000",
+      "img": "hierro.png"
+    },
+    "calcio": {
+      "nombre": "calcio",
+      "precio": "10000",
+      "img": "calcio.png"
+    },
+    "zinc": {
+      "nombre": "zinc",
+      "precio": "10000",
+      "img": "zinc.png"
+    },
+    "carburante": {
+      "nombre": "carburante",
+      "precio": "10000",
+      "img": "carburante.png"
+    },
+    "mas_pp": {
+      "nombre": "Más PP",
+      "precio": "10000",
+      "img": "maspp.png"
+    },
+    "pp_maximos": {
+      "nombre": "PP Máximos",
+      "precio": "10000",
+      "img": "ppmaximos.png"
+    }
+  },
   "objetos batalla": {},
   "mt": {},
   "objetos evolutivos": {},
