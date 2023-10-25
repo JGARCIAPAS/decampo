@@ -21,21 +21,35 @@ const ProductList = () => {
   console.log(categoryData);
   return (
     <div className="w-9/12 mx-auto ">
-      <div className="breadcrumbs">
+      <div className="breadcrumbs pt-2.5">
         <Link to="/">Inicio</Link>
         {">"}
         <Link to={`/${category}`}>{formattedCategory}</Link>
       </div>
+      <div className="bg-slate-300 my-5">100 productos </div>
       <div>
         {categoryData && Object.keys(categoryData).length > 0 ? (
-          <ul>
+          <ul className="grid gap-4 grid-cols-5">
             {Object.keys(categoryData).map((item) => {
               const product = categoryData[item];
               return (
-                <li key={item}>
+                <li className="border border-slate-300 p-2.5" key={item}>
+                  <img
+                    className="w-[130px] mx-auto"
+                    src={`./src/assets/img/productos/${category}/${product.img}`}
+                    alt={product.nombre}
+                  />
                   <h3>{product.nombre}</h3>
-                  <img src={product.img} alt={product.nombre} />
-                  <p>Precio: {product.precio}</p>
+                  <p>Unidad</p>
+                  <p className="flex border border-red">
+                    <span className="first-letter:text-xl">
+                      {product.precio}
+                    </span>
+                    <img
+                      className="w-3 h-3 mt-1.5"
+                      src="./src/assets/img/icons/pokedollar.svg"
+                    />
+                  </p>
                 </li>
               );
             })}

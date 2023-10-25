@@ -1,66 +1,266 @@
 {
   "ingredientes": {
+    "huevo_cocido": {
+      "nombre": "huevo cocido",
+      "precio": "80",
+      "img": "huevo_cocido.png"
+    },
+    "chorizo": {
+      "nombre": "chorizo",
+      "precio": "150",
+      "img": "chorizo.png"
+    },
+    "ensaladilla": {
+      "nombre": "ensaladilla",
+      "precio": "100",
+      "img": ".png"
+    },
+    "jamon_serrano": {
+      "nombre": "jamón serrano",
+      "precio": "150",
+      "img": ".png"
+    },
+    "tortilla": {
+      "nombre": "tortilla",
+      "precio": "250",
+      "img": ".png"
+    },
+    "panceta": {
+      "nombre": "panceta",
+      "precio": "150",
+      "img": ".png"
+    },
+    "pepino": {
+      "nombre": "pepino",
+      "precio": "130",
+      "img": "huevo_cocido.png"
+    },
+    "aguacate": {
+      "nombre": "aguacate",
+      "precio": "180",
+      "img": "chorizo.png"
+    },
+    "cebolla_roja": {
+      "nombre": "cebolla roja",
+      "precio": "230",
+      "img": ".png"
+    },
+    "hamburguesa": {
+      "nombre": "hamburguesa",
+      "precio": "380",
+      "img": ".png"
+    },
+    "filete_ahumado": {
+      "nombre": "filete ahumado",
+      "precio": "330",
+      "img": ".png"
+    },
+    "salsa_picante": {
+      "nombre": "salsa picante",
+      "precio": "320",
+      "img": ".png"
+    },
+    "berros": {
+      "nombre": "berros",
+      "precio": "270",
+      "img": ".png"
+    },
+    "albahaca": {
+      "nombre": "albahaca",
+      "precio": "280",
+      "img": ".png"
+    },
+    "pimiento_verde": {
+      "nombre": "pimiento verde",
+      "precio": "230",
+      "img": ".png"
+    },
+    "pimiento_rojo": {
+      "nombre": "pimiento rojo",
+      "precio": "240",
+      "img": ".png"
+    },
+    "pimiento_amarillo": {
+      "nombre": "pimiento amarillo",
+      "precio": "240",
+      "img": ".png"
+    },
+    "manzana": {
+      "nombre": "manzana",
+      "precio": "130",
+      "img": ".png"
+    },
+    "filete_frito": {
+      "nombre": "filete frito",
+      "precio": "360",
+      "img": ".png"
+    },
+    "platano": {
+      "nombre": "plátano",
+      "precio": "80",
+      "img": ".png"
+    },
+    "fresa": {
+      "nombre": "fresa",
+      "precio": "140",
+      "img": ".png"
+    },
+    "pina": {
+      "nombre": "piña",
+      "precio": "250",
+      "img": ".png"
+    },
+    "tomate": {
+      "nombre": "tomate",
+      "precio": "100",
+      "img": ".png"
+    },
+    "kiwi": {
+      "nombre": "manzana",
+      "precio": "180",
+      "img": ".png"
+    },
+    "jalapeno": {
+      "nombre": "jalapeño",
+      "precio": "220",
+      "img": ".png"
+    },
+    "pepinillo": {
+      "nombre": "pepinillo",
+      "precio": "90",
+      "img": ".png"
+    },
+    "fideos": {
+      "nombre": "fideos",
+      "precio": "280",
+      "img": ".png"
+    },
     "mayonesa": {
       "nombre": "mayonesa",
-      "precio": "600",
+      "precio": "120",
+      "img": ".png"
+    },
+    "ketchup": {
+      "nombre": "kétchup",
+      "precio": "110",
+      "img": ".png"
+    },
+    "mostaza": {
+      "nombre": "mostaza",
+      "precio": "130",
+      "img": ".png"
+    },
+    "sal": {
+      "nombre": "sal",
+      "precio": "90",
+      "img": ".png"
+    },
+    "pimienta": {
+      "nombre": "pimienta",
+      "precio": "100",
+      "img": ".png"
+    },
+    "mantequilla": {
+      "nombre": "mantequilla",
+      "precio": "250",
+      "img": ".png"
+    },
+    "lechuga": {
+      "nombre": "lechuga",
+      "precio": "90",
+      "img": ".png"
+    },
+    "cebolla": {
+      "nombre": "cebolla",
+      "precio": "130",
+      "img": ".png"
+    },
+    "yogur": {
+      "nombre": "yogur",
+      "precio": "140",
+      "img": ".png"
+    },
+    "queso": {
+      "nombre": "queso",
+      "precio": "120",
+      "img": ".png"
+    },
+    "aceite_oliva": {
+      "nombre": "aceite de oliva",
+      "precio": "300",
+      "img": ".png"
+    },
+    "surimi": {
+      "nombre": "surimi de Klawf",
+      "precio": "500",
+      "img": ".png"
+    },
+    "wasabi": {
+      "nombre": "wasabi",
+      "precio": "330",
       "img": ".png"
     }
   },
   "pokeballs": {
+    "pokeball": {
+      "nombre": "poke ball",
+      "precio": "200",
+      "img": "pokeball.png"
+    },
     "superball": {
-      "nombre": "superball",
+      "nombre": "super ball",
       "precio": "600",
-      "img": "pokeballs/superball.png"
+      "img": "superball.png"
     },
     "ultraball": {
-      "nombre": "ultraball",
+      "nombre": "ultra ball",
       "precio": "800",
-      "img": "pokeballs/ultraball.png"
+      "img": "ultraball.png"
     },
     "sanaball": {
-      "nombre": "sanaball",
+      "nombre": "sana ball",
       "precio": "300",
-      "img": "pokeballs/sanaball.png"
+      "img": "sanaball.png"
     },
     "mallaball": {
-      "nombre": "mallaball",
+      "nombre": "malla ball",
       "precio": "1000",
-      "img": "pokeballs/mallaball.png"
+      "img": "mallaball.png"
     },
     "acopioball": {
-      "nombre": "acopioball",
+      "nombre": "acopio ball",
       "precio": "1000",
-      "img": "pokeballs/acopioball.png"
+      "img": "acopioball.png"
     },
     "nidoball": {
-      "nombre": "nidoball",
+      "nombre": "nido ball",
       "precio": "1000",
-      "img": "pokeballs/nidoball.png"
+      "img": "nidoball.png"
     },
     "lujoball": {
-      "nombre": "lujoball",
+      "nombre": "lujo ball",
       "precio": "3000",
-      "img": "pokeballs/lujoball.png"
+      "img": "lujoball.png"
     },
     "buceoball": {
-      "nombre": "buceoball",
+      "nombre": "buceo ball",
       "precio": "1000",
-      "img": "pokeballs/buceoball.png"
+      "img": "buceoball.png"
     },
     "ocasoball": {
-      "nombre": "ocasoball",
+      "nombre": "ocaso ball",
       "precio": "1000",
-      "img": "pokeballs/ocasoball.png"
+      "img": "ocasoball.png"
     },
     "velozball": {
-      "nombre": "velozball",
+      "nombre": "veloz ball",
       "precio": "1000",
-      "img": "pokeballs/velozball.png"
+      "img": "velozball.png"
     },
     "turnoball": {
-      "nombre": "turnoball",
+      "nombre": "turno ball",
       "precio": "1000",
-      "img": "pokeballs/turnoball.png"
+      "img": "turnoball.png"
     }
   },
   "medicinas": {},
