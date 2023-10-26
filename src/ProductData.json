@@ -1,5 +1,5 @@
 {
-  "ingredientes": {
+  "Ingredientes": {
     "huevo_cocido": {
       "nombre": "huevo cocido",
       "precio": "80",
@@ -201,7 +201,7 @@
       "img": ".png"
     }
   },
-  "pokeballs": {
+  "Pokeballs": {
     "pokeball": {
       "nombre": "poke ball",
       "precio": "200",
@@ -263,8 +263,8 @@
       "img": "turnoball.png"
     }
   },
-  "medicinas": {},
-  "vitaminas": {
+  "Medicinas": {},
+  "Vitaminas": {
     "mas_ps": {
       "nombre": "Más PS",
       "precio": "10000",
@@ -306,9 +306,9 @@
       "img": "ppmaximos.png"
     }
   },
-  "objetos batalla": {},
-  "mt": {},
-  "objetos evolutivos": {},
-  "fundas": {},
-  "otros": {}
+  "Objetos batalla": {},
+  "MT": {},
+  "Objetos evolutivos": {},
+  "Fundas": {},
+  "Otros": {}
 }

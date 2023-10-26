@@ -17,6 +17,8 @@ export default {
         sanabolditalic: ["sana-bold-italic"],
         sanamedium: ["sana-medium"],
         sanamediumitalic: ["sana-medium-italic"],
+        lobster: ["lobsterregular"],
+        bebas_neueregular: ["bebas_neueregular"],
       },
     },
   },
