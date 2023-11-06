@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
   font-family: "sana-book-regular";
   src: url("./assets/fonts/sanasans-book-webfont.woff2") format("woff2"),
     url("./assets/fonts/sanasans-book-webfont.woff") format("woff");
@@ -49,7 +49,7 @@
     url("./assets/fonts/sanasans-medium-italic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "sana-medium";
@@ -58,7 +58,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/* @font-face {
   font-family: "lobsterregular";
   src: url("./assets/fonts/lobster-regular-webfont.woff2") format("woff2"),
     url("./assets/fonts/lobster-regular-webfont.woff") format("woff");
@@ -69,6 +69,15 @@
   font-family: "bebas_neueregular";
   src: url("./assets/fonts/bebasneue-regular-webfont.woff2") format("woff2"),
     url("./assets/fonts/bebasneue-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "thraex_sansregular";
+  src: url("./assets/fonts/thraexsansregular-v1000-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/thraexsansregular-v1000-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

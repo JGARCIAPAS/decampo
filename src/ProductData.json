@@ -3,264 +3,368 @@
     "huevo_cocido": {
       "nombre": "huevo cocido",
       "precio": "80",
-      "img": "huevo_cocido.png"
+      "img": "ingredientes/huevo_cocido.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "chorizo": {
       "nombre": "chorizo",
       "precio": "150",
-      "img": "chorizo.png"
+      "img": "ingredientes/chorizo.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "ensaladilla": {
       "nombre": "ensaladilla",
       "precio": "100",
-      "img": ".png"
+      "img": "ingredientes/ensaladilla.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "jamon_serrano": {
       "nombre": "jamón serrano",
       "precio": "150",
-      "img": ".png"
+      "img": "ingredientes/jamonserrano.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "tortilla": {
       "nombre": "tortilla",
       "precio": "250",
-      "img": ".png"
+      "img": "ingredientes/tortilla.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "panceta": {
       "nombre": "panceta",
       "precio": "150",
-      "img": ".png"
+      "img": "ingredientes/panceta.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pepino": {
       "nombre": "pepino",
       "precio": "130",
-      "img": "huevo_cocido.png"
+      "img": "ingredientes/pepino.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "aguacate": {
       "nombre": "aguacate",
       "precio": "180",
-      "img": "chorizo.png"
+      "img": "ingredientes/aguacate.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "cebolla_roja": {
       "nombre": "cebolla roja",
       "precio": "230",
-      "img": ".png"
+      "img": "ingredientes/cebolla.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "hamburguesa": {
       "nombre": "hamburguesa",
       "precio": "380",
-      "img": ".png"
+      "img": "ingredientes/hamburguesa.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "filete_ahumado": {
       "nombre": "filete ahumado",
       "precio": "330",
-      "img": ".png"
+      "img": "ingredientes/filete.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "salsa_picante": {
       "nombre": "salsa picante",
       "precio": "320",
-      "img": ".png"
+      "img": "ingredientes/picante.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "berros": {
       "nombre": "berros",
       "precio": "270",
-      "img": ".png"
+      "img": "ingredientes/berros.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "albahaca": {
       "nombre": "albahaca",
       "precio": "280",
-      "img": ".png"
+      "img": "ingredientes/albahaca.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pimiento_verde": {
       "nombre": "pimiento verde",
       "precio": "230",
-      "img": ".png"
+      "img": "ingredientes/pimientoverde.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pimiento_rojo": {
       "nombre": "pimiento rojo",
       "precio": "240",
-      "img": ".png"
+      "img": "ingredientes/pimientorojo.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pimiento_amarillo": {
       "nombre": "pimiento amarillo",
       "precio": "240",
-      "img": ".png"
+      "img": "ingredientes/pimientoamarillo.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "manzana": {
       "nombre": "manzana",
       "precio": "130",
-      "img": ".png"
+      "img": "ingredientes/manzana.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "filete_frito": {
       "nombre": "filete frito",
       "precio": "360",
-      "img": ".png"
+      "img": "ingredientes/filetefrito.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "platano": {
       "nombre": "plátano",
       "precio": "80",
-      "img": ".png"
+      "img": "ingredientes/platano.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "fresa": {
       "nombre": "fresa",
       "precio": "140",
-      "img": ".png"
+      "img": "ingredientes/fresa.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pina": {
       "nombre": "piña",
       "precio": "250",
-      "img": ".png"
+      "img": "ingredientes/pina.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "tomate": {
       "nombre": "tomate",
       "precio": "100",
-      "img": ".png"
+      "img": "ingredientes/tomate.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "kiwi": {
-      "nombre": "manzana",
+      "nombre": "kiwi",
       "precio": "180",
-      "img": ".png"
+      "img": "ingredientes/kiwi.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "jalapeno": {
       "nombre": "jalapeño",
       "precio": "220",
-      "img": ".png"
+      "img": "ingredientes/jalapeno.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pepinillo": {
       "nombre": "pepinillo",
       "precio": "90",
-      "img": ".png"
+      "img": "ingredientes/pepinillo.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "fideos": {
       "nombre": "fideos",
       "precio": "280",
-      "img": ".png"
+      "img": "ingredientes/fideos.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "mayonesa": {
       "nombre": "mayonesa",
       "precio": "120",
-      "img": ".png"
+      "img": "ingredientes/mayonesa.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "ketchup": {
       "nombre": "kétchup",
       "precio": "110",
-      "img": ".png"
+      "img": "ingredientes/ketchup.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "mostaza": {
       "nombre": "mostaza",
       "precio": "130",
-      "img": ".png"
+      "img": "ingredientes/mostaza.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "sal": {
       "nombre": "sal",
       "precio": "90",
-      "img": ".png"
+      "img": "ingredientes/sal.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "pimienta": {
       "nombre": "pimienta",
       "precio": "100",
-      "img": ".png"
+      "img": "ingredientes/pimienta.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "mantequilla": {
       "nombre": "mantequilla",
       "precio": "250",
-      "img": ".png"
+      "img": "ingredientes/mantequilla.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "lechuga": {
       "nombre": "lechuga",
       "precio": "90",
-      "img": ".png"
+      "img": "ingredientes/lechuga.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
-    "cebolla": {
-      "nombre": "cebolla",
+    "paella": {
+      "nombre": "paella",
       "precio": "130",
-      "img": ".png"
+      "img": "ingredientes/paella.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "yogur": {
       "nombre": "yogur",
       "precio": "140",
-      "img": ".png"
+      "img": "ingredientes/yogur.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "queso": {
       "nombre": "queso",
       "precio": "120",
-      "img": ".png"
+      "img": "ingredientes/queso.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "aceite_oliva": {
       "nombre": "aceite de oliva",
       "precio": "300",
-      "img": ".png"
+      "img": "ingredientes/aceite.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "surimi": {
       "nombre": "surimi de Klawf",
       "precio": "500",
-      "img": ".png"
+      "img": "ingredientes/surimi.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     },
     "wasabi": {
       "nombre": "wasabi",
       "precio": "330",
-      "img": ".png"
+      "img": "ingredientes/wasabi.png",
+      "fabricante": "Decampo",
+      "detalle": ""
     }
   },
   "Pokeballs": {
     "pokeball": {
       "nombre": "poke ball",
       "precio": "200",
-      "img": "pokeball.png"
+      "img": "pokeballs/pokeball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "superball": {
       "nombre": "super ball",
       "precio": "600",
-      "img": "superball.png"
+      "img": "pokeballs/superball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "ultraball": {
       "nombre": "ultra ball",
       "precio": "800",
-      "img": "ultraball.png"
+      "img": "pokeballs/ultraball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "sanaball": {
       "nombre": "sana ball",
       "precio": "300",
-      "img": "sanaball.png"
+      "img": "pokeballs/sanaball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "mallaball": {
       "nombre": "malla ball",
       "precio": "1000",
-      "img": "mallaball.png"
+      "img": "pokeballs/mallaball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "acopioball": {
       "nombre": "acopio ball",
       "precio": "1000",
-      "img": "acopioball.png"
+      "img": "pokeballs/acopioball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "nidoball": {
       "nombre": "nido ball",
       "precio": "1000",
-      "img": "nidoball.png"
+      "img": "pokeballs/nidoball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "lujoball": {
       "nombre": "lujo ball",
       "precio": "3000",
-      "img": "lujoball.png"
+      "img": "pokeballs/lujoball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "buceoball": {
       "nombre": "buceo ball",
       "precio": "1000",
-      "img": "buceoball.png"
+      "img": "pokeballs/buceoball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "ocasoball": {
       "nombre": "ocaso ball",
       "precio": "1000",
-      "img": "ocasoball.png"
+      "img": "pokeballs/ocasoball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "velozball": {
       "nombre": "veloz ball",
       "precio": "1000",
-      "img": "velozball.png"
+      "img": "pokeballs/velozball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     },
     "turnoball": {
       "nombre": "turno ball",
       "precio": "1000",
-      "img": "turnoball.png"
+      "img": "pokeballs/turnoball.png",
+      "fabricante": "Silph",
+      "detalle": ""
     }
   },
   "Medicinas": {},
@@ -268,42 +372,58 @@
     "mas_ps": {
       "nombre": "Más PS",
       "precio": "10000",
-      "img": "masps.png"
+      "img": "vitaminas/masps.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "proteina": {
       "nombre": "proteina",
       "precio": "10000",
-      "img": "proteina.png"
+      "img": "vitaminas/proteina.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "hierro": {
       "nombre": "hierro",
       "precio": "10000",
-      "img": "hierro.png"
+      "img": "vitaminas/hierro.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "calcio": {
       "nombre": "calcio",
       "precio": "10000",
-      "img": "calcio.png"
+      "img": "vitaminas/calcio.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "zinc": {
       "nombre": "zinc",
       "precio": "10000",
-      "img": "zinc.png"
+      "img": "vitaminas/zinc.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "carburante": {
       "nombre": "carburante",
       "precio": "10000",
-      "img": "carburante.png"
+      "img": "vitaminas/carburante.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "mas_pp": {
       "nombre": "Más PP",
       "precio": "10000",
-      "img": "maspp.png"
+      "img": "vitaminas/maspp.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     },
     "pp_maximos": {
       "nombre": "PP Máximos",
       "precio": "10000",
-      "img": "ppmaximos.png"
+      "img": "vitaminas/ppmaximos.png",
+      "fabricante": "Fundación Æther",
+      "detalle": ""
     }
   },
   "Objetos batalla": {},

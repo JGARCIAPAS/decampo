@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
 import ProductData from "../ProductData.json";
+import { fontProps } from "./Interfaces/Interfaces";
 
 interface Product {
   img: string;
   nombre: string;
   precio: number;
+  fabricante: string;
+  detalle: string;
 }
 
-const ProductList = () => {
+const ProductList: React.FC<fontProps> = (fontProps) => {
   const { category } = useParams();
   const formattedCategory = category?.replace("_", " ");
   const [categoryData, setCategoryData] = useState<Record<string, Product>>({});
@@ -20,7 +22,7 @@ const ProductList = () => {
   }, [formattedCategory]);
   console.log(categoryData);
   return (
-    <div className="w-9/12 mx-auto font-sanamedium">
+    <div className={`w-9/12 mx-auto ${fontProps.font}`}>
       <div className="breadcrumbs pt-2.5">
         <Link to="/">Inicio</Link>
         {">"}
@@ -36,15 +38,16 @@ const ProductList = () => {
                 <li className="border border-slate-300 p-2.5" key={item}>
                   <img
                     className="w-[130px] mx-auto mb-5"
-                    src={`./src/assets/img/productos/${category}/${product.img}`}
+                    src={`./src/assets/img/productos/${product.img}`}
                     alt={product.nombre}
                   />
-                  <h3 className="text-sm text-slate-500 uppercase">
-                    {product.nombre}
-                  </h3>
+                  <h3 className="text-sm font-bold">{product.nombre}</h3>
+                  <h4 className="text-sm text-slate-500 uppercase">
+                    {product.fabricante}
+                  </h4>
                   <p className="text-xs">Unidad</p>
                   <p className="flex border border-red w-fit px-5 py-2.5">
-                    <span className="first-letter:text-2xl font-bold font-sanablackregular text-red">
+                    <span className="first-letter:text-2xl font-bold text-red">
                       {product.precio}
                     </span>
                     <img

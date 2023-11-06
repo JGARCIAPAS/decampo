@@ -45,7 +45,7 @@ const ShopLocation = () => {
         </div>
       </div>
       <div
-        className={`${showCities} absolute bg-white top-[60px] w-[250px] shadow-md text-sm font-sanamedium`}
+        className={`${showCities} absolute bg-white top-[60px] w-[250px] shadow-md text-sm`}
       >
         {mainCity == "Ciudad Meseta" ? (
           <></>

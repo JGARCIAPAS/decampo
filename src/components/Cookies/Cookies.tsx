@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { fontProps } from "../Interfaces/Interfaces";
 
-const Cookies = () => {
+const Cookies: React.FC<fontProps> = (fontProps) => {
   const [showCookie, setShowCookie] = useState(true);
   const toggleCookies = () => {
     setShowCookie(false);
@@ -9,7 +10,9 @@ const Cookies = () => {
   const displayCookies = showCookie ? "block" : "hidden";
 
   return (
-    <div className={`bg-cookie_gray pl-5 text-center pt-5 ${displayCookies}`}>
+    <div
+      className={`bg-cookie_gray pl-5 text-center pt-5 ${displayCookies} ${fontProps.font}`}
+    >
       <div className="inline-block w-6 h-6 pt-1">
         <picture>
           <source
