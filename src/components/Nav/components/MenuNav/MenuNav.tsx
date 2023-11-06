@@ -13,7 +13,12 @@ const MenuNav = () => {
             key={category}
             className="py-5 text-white text-center font-bold border-red border-b-4 hover:border-white hover:border-b-4 transition-colors"
           >
-            <Link to={category.replace(/\s/g, "_")}>{category}</Link>
+            <Link
+              className="cursor-pokepointer"
+              to={category.replace(/\s/g, "_")}
+            >
+              {category}
+            </Link>
           </div>
         ))}
       </div>

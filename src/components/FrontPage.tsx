@@ -32,7 +32,12 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           src="./src/assets/img/productos/pokeballs/honorball.png"
         />
       </div>
-      <img className="mt-5" src="./src/assets/img/banners/03_es.png" />
+      {fontProps.font == "font-thraex" ? (
+        <img className="mt-5" src="./src/assets/img/banners/03_pald.png" />
+      ) : (
+        <img className="mt-5" src="./src/assets/img/banners/03_es.png" />
+      )}
+
       <Bids bidItems={BidItems} />
       <div className="flex justify-between mt-5">
         <div className="w-60">

@@ -22,7 +22,7 @@ const ShopLocation = () => {
 
   return (
     <div
-      className="shop-location basis-1/6 flex flex-basis gap-1 cursor-pointer relative"
+      className="shop-location basis-1/6 flex flex-basis gap-1 cursor-pokepointer relative"
       onClick={showTooltip}
     >
       <picture className="w-10">

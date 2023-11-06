@@ -10,7 +10,7 @@ const Nav: React.FC<fontProps> = (fontProps) => {
     <div className={`nav ${fontProps.font}`}>
       <div className="main-nav flex flex-row gap-16 pt-5 pb-2 w-9/12 mx-auto basis-1/6">
         <Link to="/">
-          <picture className="site-logo w-52">
+          <picture className="site-logo w-52 cursor-pokepointer">
             <source
               srcSet="./src/assets/img/logos/decampo_alt.svg"
               media="(min-width: 600px)"
@@ -30,7 +30,7 @@ const Nav: React.FC<fontProps> = (fontProps) => {
               />
             </span>
             <input
-              className="border border-dark_gray border-solid rounded text-base py-2.5 pl-12 pr-10 w-full"
+              className="border border-dark_gray border-solid rounded text-base py-2.5 pl-12 pr-10 w-full cursor-poketext"
               placeholder="¿Que estás buscando? leche Mu-Mu, pociones, MT,..."
             />
           </div>

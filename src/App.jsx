@@ -13,7 +13,7 @@ import ProductList from "./components/ProductList";
 import { useState } from "react";
 
 function App() {
-  const [font, setFont] = useState("font-sanamedium");
+  const [font, setFont] = useState("font-thraex");
   const esp = () => {
     setFont("font-sanamedium");
   };
@@ -21,23 +21,33 @@ function App() {
     setFont("font-thraex");
   };
   return (
-    <>
-      <div className="bg-gradient-to-r from-purple-700 via-[#f7556b] to-red px-12 py-4 text-center">
-        <button className="px-16 font-sanamedium font-bold" onClick={esp}>
-          <p>Español</p>
+    <div className="cursor-pokecursor">
+      <div className="bg-gradient-to-r from-purple-700 via-[#f7556b] to-red px-12 py-4 text-center fixed w-full top-0 z-10">
+        <button
+          className="px-16 font-sanamedium font-bold border-2 border-yellow-500 mr-3.5 rounded-md cursor-pokepointer"
+          onClick={esp}
+        >
+          <p className="text-shadow-default  text-purple-700 p-1.5">Español</p>
         </button>
-        <button className="px-16 font-thraex font-bold" onClick={pal}>
-          <p>Paldeano</p>
+        <button
+          className="px-16 font-thraex font-bold border-2 border-yellow-500 rounded-md cursor-pokepointer"
+          onClick={pal}
+        >
+          <p className="text-shadow-default text-red px-1.5 pt-2 pb-1">
+            Paldeano
+          </p>
         </button>
       </div>
-      <Cookies font={font} />
-      <Nav font={font} />
-      <Routes>
-        <Route path="/" element={<FrontPage font={font} />} />
-        <Route path="/:category" element={<ProductList font={font} />} />
-      </Routes>
-      <Footer font={font} />
-    </>
+      <div className="mt-[72px]">
+        <Cookies font={font} />
+        <Nav font={font} />
+        <Routes>
+          <Route path="/" element={<FrontPage font={font} />} />
+          <Route path="/:category" element={<ProductList font={font} />} />
+        </Routes>
+        <Footer font={font} />
+      </div>
+    </div>
   );
 }
 

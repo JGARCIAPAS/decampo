@@ -29,14 +29,14 @@ const Cookies: React.FC<fontProps> = (fontProps) => {
         <p className="text-white">
           Nuestro sitio web utiliza cookies, tanto propias como de terceros.
           Puedes obtener más información en nuestra{" "}
-          <a href="" className="text-green-700">
+          <a href="" className="text-green-700 cursor-pokepointer">
             política de cookies
           </a>
         </p>
       </div>
       <div className="py-2.5">
         <button
-          className="border border-white w-fit text-center py-1.5 px-5 text-white rounded-3xl hover:border-dark_gray hover:text-dark_gray"
+          className="border border-white w-fit text-center py-1.5 px-5 text-white rounded-3xl hover:border-dark_gray hover:text-dark_gray cursor-pokepointer"
           onClick={toggleCookies}
         >
           Aceptar y continuar navegando

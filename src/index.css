@@ -81,3 +81,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.text-shadow-default {
+  text-shadow: 2px 0 #fff700, -2px 0 #fff700, 0 2px #fff700, 0 -2px #fff700,
+    1px 1px #fff700, -1px -1px #fff700, 1px -1px #fff700, -1px 1px #fff700;
+}

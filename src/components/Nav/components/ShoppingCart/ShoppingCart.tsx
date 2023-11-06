@@ -2,7 +2,7 @@ import React from "react";
 
 const ShoppingCart = () => {
   return (
-    <div className="cart-box  border border-slate-300 pt-2.5 px-4 flex flex-basis gap-2 max-h-12 rounded">
+    <div className="cart-box  border border-slate-300 pt-2.5 px-4 flex flex-basis gap-2 max-h-12 rounded cursor-pokepointer">
       <picture className="w-7 h-7">
         <source
           srcSet="./src/assets/img/icons/chart.svg"

@@ -24,11 +24,17 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
   return (
     <div className={`w-9/12 mx-auto ${fontProps.font}`}>
       <div className="breadcrumbs pt-2.5">
-        <Link to="/">Inicio</Link>
-        {">"}
-        <Link to={`/${category}`}>{formattedCategory}</Link>
+        <Link className="cursor-pokepointer" to="/">
+          Inicio
+        </Link>
+        {" > "}
+        <Link className="cursor-pokepointer" to={`/${category}`}>
+          {formattedCategory}
+        </Link>
       </div>
-      <div className="bg-slate-300 my-5">100 productos </div>
+      <div className="bg-slate-300 my-5">
+        {Object.keys(categoryData).length} productos disponibles
+      </div>
       <div>
         {categoryData && Object.keys(categoryData).length > 0 ? (
           <ul className="grid gap-4 grid-cols-6">
