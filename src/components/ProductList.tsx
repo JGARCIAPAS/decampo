@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ProductData from "../ProductData.json";
 import { fontProps } from "./Interfaces/Interfaces";
+import Modal from "./Modal/Modal";
 
 interface Product {
   img: string;
@@ -21,6 +22,13 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
     }
   }, [formattedCategory]);
   console.log(categoryData);
+
+  const [modal, setModal] = useState(false);
+  const showModal = () => {
+    setModal(!modal);
+  };
+  const openModal = modal ? "block" : "hidden";
+
   return (
     <div className={`w-9/12 mx-auto ${fontProps.font}`}>
       <div className="breadcrumbs pt-2.5">
@@ -67,10 +75,17 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
                       src="./src/assets/img/icons/heart.svg"
                       alt="fav"
                     />
-                    {/* TODO: MODAL TO THE PRODUCT */}
-                    <p className="bg-red text-white font-bold w-fit py-1.5 px-6 rounded-3xl text-sm">
+
+                    <p
+                      className="bg-red text-white font-bold w-fit py-1.5 px-6 rounded-3xl text-sm"
+                      onClick={showModal}
+                    >
                       Comprar
                     </p>
+                    {/* TODO: MODAL TO THE PRODUCT */}
+                    <div className={openModal}>
+                      <Modal />
+                    </div>
                   </div>
                 </li>
               );
