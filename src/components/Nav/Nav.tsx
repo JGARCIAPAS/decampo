@@ -12,12 +12,12 @@ const Nav: React.FC<fontProps> = (fontProps) => {
         <Link to="/">
           <picture className="site-logo w-52 cursor-pokepointer">
             <source
-              srcSet="src/assets/img/logos/decampo_alt.svg"
+              srcSet="public/img/logos/decampo_alt.svg"
               media="(min-width: 600px)"
             />
             <img
               className="site-logo w-52"
-              src="src/assets/img/logos/decampo_alt.svg"
+              src="public/img/logos/decampo_alt.svg"
             />
           </picture>
         </Link>
@@ -26,7 +26,7 @@ const Nav: React.FC<fontProps> = (fontProps) => {
             <span className="absolute top-3 left-0 flex items-center pl-2">
               <img
                 className="h-5 w-5 fill-slate-300"
-                src="src/assets/img/icons/search.svg"
+                src="public/img/icons/search.svg"
               />
             </span>
             <input

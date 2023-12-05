@@ -14,10 +14,9 @@ export default {
         thraex: ["thraex_sansregular"],
       },
       cursor: {
-        pokecursor: "url(./src/assets/img/icons/pokeball_color.svg), pointer",
-        pokepointer:
-          "url(./src/assets/img/icons/pokeball_pointer.svg), pointer",
-        poketext: "url(./src/assets/img/icons/pokeball_text.svg), pointer",
+        pokecursor: "url(./public/img/icons/pokeball_color.svg), pointer",
+        pokepointer: "url(./public/img/icons/pokeball_pointer.svg), pointer",
+        poketext: "url(./public/img/icons/pokeball_text.svg), pointer",
       },
     },
   },
