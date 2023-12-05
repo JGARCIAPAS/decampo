@@ -8,34 +8,34 @@ const Footer: React.FC<fontProps> = (fontProps) => {
           <div>
             <img
               className="w-7 h-7 inline-block mr-2.5"
-              src="blob/main/public/img/icons/facebook.png"
+              src="blob/main/img/icons/facebook.png"
             />
             <img
               className="w-7 h-7 inline-block mr-2.5"
-              src="blob/main/public/img/icons/twitter.webp"
+              src="blob/main/img/icons/twitter.webp"
             />
             <img
               className="w-7 h-7 inline-block mr-2.5"
-              src="blob/main/public/img/icons/youtube.png"
+              src="blob/main/img/icons/youtube.png"
             />
             <img
               className="w-7 h-7 inline-block mr-2.5"
-              src="blob/main/public/img/icons/social_ig.png"
+              src="blob/main/img/icons/social_ig.png"
             />
             <img
               className="w-7 h-7 inline-block mr-2.5"
-              src="blob/main/public/img/icons/mail.webp"
+              src="blob/main/img/icons/mail.webp"
             />
           </div>
           <div className="text-right">
             <span className="inline-block mr-2.5 ">Apps gratuitas</span>
             <img
               className="inline-block mr-2.5"
-              src="blob/main/public/img/icons/iOS.png"
+              src="blob/main/img/icons/iOS.png"
             />
             <img
               className="inline-block"
-              src="blob/main/public/img/icons/android.webp"
+              src="blob/main/img/icons/android.webp"
             />
           </div>
         </div>
@@ -63,17 +63,17 @@ const Footer: React.FC<fontProps> = (fontProps) => {
                 <img
                   className="p-0.5 bg-gray-700 w-12 inline"
                   alt="Puntos de batalla"
-                  src="blob/main/public/img/icons/bp.png"
+                  src="blob/main/img/icons/bp.png"
                 />
                 <img
                   className="p-0.5 bg-gray-700 w-12 inline"
                   alt="Puntos de liga"
-                  src="blob/main/public/img/icons/lp.png"
+                  src="blob/main/img/icons/lp.png"
                 />
                 <img
                   className="p-0.5 bg-gray-700 w-12 inline"
                   alt="Tarjeta de puntos de batalla Sinnoh"
-                  src="blob/main/public/img/icons/bpcard.png"
+                  src="blob/main/img/icons/bpcard.png"
                 />
               </div>
             </div>

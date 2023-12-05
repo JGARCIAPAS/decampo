@@ -18,7 +18,7 @@ const Bids: React.FC<BidsProps> = (BidsProps) => {
               <div key={index} className="carousel-slide p-2.5 w-57">
                 <img
                   className="w-[130px] mx-auto mb-5"
-                  src={`public/img/productos/${item?.img}`}
+                  src={`img/productos/${item?.img}`}
                   alt={item?.nombre}
                 />
                 <h3 className="text-sm font-bold">{item?.nombre}</h3>
@@ -33,7 +33,7 @@ const Bids: React.FC<BidsProps> = (BidsProps) => {
                     </span>
                     <img
                       className="w-3 h-3 mt-3 ml-1"
-                      src="blob/main/public/img/icons/pokedollar_red.svg"
+                      src="blob/main/img/icons/pokedollar_red.svg"
                     />
                   </p>
                   <div className="ml-5">
@@ -41,7 +41,7 @@ const Bids: React.FC<BidsProps> = (BidsProps) => {
                     <p className="bg-red w-fit rounded-full p-3">
                       <img
                         className="w-5"
-                        src="blob/main/public/img/icons/chart_white.svg"
+                        src="blob/main/img/icons/chart_white.svg"
                         alt="fav"
                       />
                     </p>

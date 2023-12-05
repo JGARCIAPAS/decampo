@@ -52,7 +52,7 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
                 <li className="border border-slate-300 p-2.5" key={item}>
                   <img
                     className="w-[130px] mx-auto mb-5"
-                    src={`public/img/productos/${product.img}`}
+                    src={`img/productos/${product.img}`}
                     alt={product.nombre}
                   />
                   <h3 className="text-sm font-bold">{product.nombre}</h3>
@@ -66,13 +66,13 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
                     </span>
                     <img
                       className="w-3 h-3 mt-3 ml-1"
-                      src="blob/main/public/img/icons/pokedollar_red.svg"
+                      src="blob/main/img/icons/pokedollar_red.svg"
                     />
                   </p>
                   <div className="mt-2.5 flex justify-between">
                     <img
                       className=""
-                      src="blob/main/public/img/icons/heart.svg"
+                      src="blob/main/img/icons/heart.svg"
                       alt="fav"
                     />
 
