@@ -66,13 +66,13 @@ const ProductList: React.FC<fontProps> = (fontProps) => {
                     </span>
                     <img
                       className="w-3 h-3 mt-3 ml-1"
-                      src="public/img/icons/pokedollar_red.svg"
+                      src="blob/main/public/img/icons/pokedollar_red.svg"
                     />
                   </p>
                   <div className="mt-2.5 flex justify-between">
                     <img
                       className=""
-                      src="public/img/icons/heart.svg"
+                      src="blob/main/public/img/icons/heart.svg"
                       alt="fav"
                     />
 

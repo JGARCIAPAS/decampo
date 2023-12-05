@@ -29,13 +29,13 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
         </span>
         <img
           className="w-8 inline ml-3"
-          src="public/img/productos/pokeballs/honorball.png"
+          src="blob/main/public/img/productos/pokeballs/honorball.png"
         />
       </div>
       {fontProps.font == "font-thraex" ? (
-        <img className="mt-5" src="public/img/banners/03_pald.png" />
+        <img className="mt-5" src="blob/main/public/img/banners/03_pald.png" />
       ) : (
-        <img className="mt-5" src="public/img/banners/03_es.png" />
+        <img className="mt-5" src="blob/main/public/img/banners/03_es.png" />
       )}
 
       <Bids bidItems={BidItems} />
@@ -46,7 +46,7 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           </h4>
           <img
             className="h-20 mx-auto mt-2.5"
-            src="public/img/icons/lechonk.svg"
+            src="blob/main/public/img/icons/lechonk.svg"
           />
         </div>
         <div className="w-60">
@@ -55,7 +55,7 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           </h4>
           <img
             className="h-20 mx-auto mt-2.5"
-            src="public/img/icons/mobile.svg"
+            src="blob/main/public/img/icons/mobile.svg"
           />
         </div>
         <div className="w-60">
@@ -64,7 +64,7 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           </h4>
           <img
             className="h-20 mx-auto mt-2.5"
-            src="public/img/icons/pokecenter.svg"
+            src="blob/main/public/img/icons/pokecenter.svg"
           />
         </div>
         <div className="w-60">
@@ -73,7 +73,7 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           </h4>
           <img
             className="h-20 mx-auto mt-2.5"
-            src="public/img/icons/sentbox.svg"
+            src="blob/main/public/img/icons/sentbox.svg"
           />
         </div>
       </div>
