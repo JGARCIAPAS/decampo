@@ -12,13 +12,10 @@ const Nav: React.FC<fontProps> = (fontProps) => {
         <Link to="/">
           <picture className="site-logo w-52 cursor-pokepointer">
             <source
-              srcSet="blob/main/img/logos/decampo_alt.svg"
+              srcSet="img/logos/decampo_alt.svg"
               media="(min-width: 600px)"
             />
-            <img
-              className="site-logo w-52"
-              src="blob/main/img/logos/decampo_alt.svg"
-            />
+            <img className="site-logo w-52" src="img/logos/decampo_alt.svg" />
           </picture>
         </Link>
         <div className="header-content flex flex-row basis-5/6">
@@ -26,7 +23,7 @@ const Nav: React.FC<fontProps> = (fontProps) => {
             <span className="absolute top-3 left-0 flex items-center pl-2">
               <img
                 className="h-5 w-5 fill-slate-300"
-                src="blob/main/img/icons/search.svg"
+                src="img/icons/search.svg"
               />
             </span>
             <input

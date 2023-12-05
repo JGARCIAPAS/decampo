@@ -15,14 +15,8 @@ const Cookies: React.FC<fontProps> = (fontProps) => {
     >
       <div className="inline-block w-6 h-6 pt-1">
         <picture>
-          <source
-            srcSet="blob/main/img/icons/cookie.svg"
-            media="(min-width: 600px)"
-          />
-          <img
-            className="site-logo w-52"
-            src="blob/main/img/icons/cookie.svg"
-          />
+          <source srcSet="img/icons/cookie.svg" media="(min-width: 600px)" />
+          <img className="site-logo w-52" src="img/icons/cookie.svg" />
         </picture>
       </div>
       <div className="inline-block pl-5">

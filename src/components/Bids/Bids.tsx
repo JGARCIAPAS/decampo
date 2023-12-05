@@ -33,7 +33,7 @@ const Bids: React.FC<BidsProps> = (BidsProps) => {
                     </span>
                     <img
                       className="w-3 h-3 mt-3 ml-1"
-                      src="blob/main/img/icons/pokedollar_red.svg"
+                      src="img/icons/pokedollar_red.svg"
                     />
                   </p>
                   <div className="ml-5">
@@ -41,7 +41,7 @@ const Bids: React.FC<BidsProps> = (BidsProps) => {
                     <p className="bg-red w-fit rounded-full p-3">
                       <img
                         className="w-5"
-                        src="blob/main/img/icons/chart_white.svg"
+                        src="img/icons/chart_white.svg"
                         alt="fav"
                       />
                     </p>

@@ -27,7 +27,7 @@ const ShopLocation = () => {
     >
       <picture className="w-10">
         <source />
-        <img src="blob/main/img/icons/pointer.svg" />
+        <img src="img/icons/pointer.svg" />
       </picture>
       <div className="text-sm">
         <div>Tienda de</div>
@@ -36,7 +36,7 @@ const ShopLocation = () => {
           <span className="inset-y-0 right-0 flex items-center pl-1 pb-1.5">
             <img
               className="h-3 w-3 fill-slate-300"
-              src="blob/main/img/icons/arrow_down.svg"
+              src="img/icons/arrow_down.svg"
             />
           </span>
         </div>

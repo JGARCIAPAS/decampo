@@ -29,13 +29,13 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
         </span>
         <img
           className="w-8 inline ml-3"
-          src="blob/main/img/productos/pokeballs/honorball.png"
+          src="img/productos/pokeballs/honorball.png"
         />
       </div>
       {fontProps.font == "font-thraex" ? (
-        <img className="mt-5" src="blob/main/img/banners/03_pald.png" />
+        <img className="mt-5" src="img/banners/03_pald.png" />
       ) : (
-        <img className="mt-5" src="blob/main/img/banners/03_es.png" />
+        <img className="mt-5" src="img/banners/03_es.png" />
       )}
 
       <Bids bidItems={BidItems} />
@@ -44,37 +44,25 @@ const FrontPage: React.FC<fontProps> = (fontProps) => {
           <h4 className="text-center text-xl font-bold">
             Los mejores precios también en la web
           </h4>
-          <img
-            className="h-20 mx-auto mt-2.5"
-            src="blob/main/img/icons/lechonk.svg"
-          />
+          <img className="h-20 mx-auto mt-2.5" src="img/icons/lechonk.svg" />
         </div>
         <div className="w-60">
           <h4 className="text-center  text-xl font-bold">
             Todo el surtido de la tienda en un click
           </h4>
-          <img
-            className="h-20 mx-auto mt-2.5"
-            src="blob/main/img/icons/mobile.svg"
-          />
+          <img className="h-20 mx-auto mt-2.5" src="img/icons/mobile.svg" />
         </div>
         <div className="w-60">
           <h4 className="text-center  text-xl font-bold">
             Recoge tu compra como y cuando quieras
           </h4>
-          <img
-            className="h-20 mx-auto mt-2.5"
-            src="blob/main/img/icons/pokecenter.svg"
-          />
+          <img className="h-20 mx-auto mt-2.5" src="img/icons/pokecenter.svg" />
         </div>
         <div className="w-60">
           <h4 className="text-center  text-xl font-bold">
             Devolución gratis en tienda o centro pokémon
           </h4>
-          <img
-            className="h-20 mx-auto mt-2.5"
-            src="blob/main/img/icons/sentbox.svg"
-          />
+          <img className="h-20 mx-auto mt-2.5" src="img/icons/sentbox.svg" />
         </div>
       </div>
     </div>
