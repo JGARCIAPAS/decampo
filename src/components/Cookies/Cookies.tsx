@@ -16,12 +16,12 @@ const Cookies: React.FC<fontProps> = (fontProps) => {
       <div className="inline-block w-6 h-6 pt-1">
         <picture>
           <source
-            srcSet="./src/assets/img/icons/cookie.svg"
+            srcSet="src/assets/img/icons/cookie.svg"
             media="(min-width: 600px)"
           />
           <img
             className="site-logo w-52"
-            src="./src/assets/img/icons/cookie.svg"
+            src="src/assets/img/icons/cookie.svg"
           />
         </picture>
       </div>

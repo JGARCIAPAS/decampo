@@ -42,8 +42,11 @@ function App() {
         <Cookies font={font} />
         <Nav font={font} />
         <Routes>
-          <Route path="/" element={<FrontPage font={font} />} />
-          <Route path="/:category" element={<ProductList font={font} />} />
+          <Route path="/decampo/" element={<FrontPage font={font} />} />
+          <Route
+            path="/decampo/:category"
+            element={<ProductList font={font} />}
+          />
         </Routes>
         <Footer font={font} />
       </div>
